@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Find - Kokoa Clone</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fa-solid fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>21:41</span>
+    </div>
+    <div class="status-bar__column">
+      <span>78%</span>
+      <i class="fa-solid fa-battery-quarter"></i>
+      <i class="fa-solid fa-charging-station"></i>
+    </div>
+  </div>
+
+  <header class="screen-header">
+    <h1 class="screen-header__title">Find</h1>
+    <div class="screen-header__icons">
+      <span><a href="find.html"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+      <span><a href="settings.html"><i class="fa-solid fa-gear"></i></a></span>
+    </div>
+  </header>
+
+  <main class="main-screen">
+    <div class="icon-row">
+      <div class="icon-row__icon">
+        <i class="fa-solid fa-qrcode"></i><span>QR Code</span>
+      </div>
+      <div class="icon-row__icon">
+        <i class="fa-solid fa-address-book"></i><span>Add by Contacts</span>
+      </div>
+      <div class="icon-row__icon">
+        <i class="fa-solid fa-fingerprint"></i><span>Ass by ID</span>
+      </div>
+      <div class="icon-row__icon">
+        <i class="fa-solid fa-envelope-circle-check"></i><span>Invite</span>
+      </div>
+    </div>
+    <div class="recommended-friends">
+      <h6 class="recommended-friends__title">Recommended Friends</h6>
+      <span>You have no recommended friends.</span>
+    </div>
+    <div class="open-chat">
+      <div class="open-chat__header">
+        <h4>Open Chat</h4>
+        <span>Go to Openchat Home<i class="fa-solid fa-chevron-right fa-xs"></i></span>
+      </div>
+      <div class="open-post">
+        <div class="open-post__column">
+          <h5 class="open-post__title">#JESSI</h5>
+          <h6 class="open-post__hashtags">#jessi#어떤X#friends</h6>
+          <div class="open-post__members">
+            <img src="images/avatar/easydev.png" />
+            <span class="open-post__member-count">717 members</span>
+            <div class="divider"></div>
+            <div class="open-post__member-status">Active</div>
+          </div>
+        </div>
+        <div class="open-post__column">
+          <div class="opne-post__photo">
+            <img src="images/a.jpg">
+            <div class="open-post__heart-count">
+              <i class="fa-solid fa-heart fa-xs"></i>
+              <span>1149</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <i class="fa-solid fa-user-group fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+          <i class="fa-solid fa-comment fa-2x"></i>
+          <span class="nav__notification badge">1</span>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="find.html">
+          <i class="fa-solid fa-magnifying-glass fa-2x light"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <i class="fa-solid fa-ellipsis fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div id="no-mobile">
+    <span>Your screen is too big</span>
+  </div>
+</body>
+
+</html>
